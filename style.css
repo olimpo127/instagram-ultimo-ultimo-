@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+}
+.container {
+    display: flex;
+    margin: 30%;
+    margin-top: 7%;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-bottom: 30%;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+.leftIcons {
+    display: flex;
+    flex-direction: row;
+    margin: 9px;
+}
+
+#heart {
+    margin: 5px;
+}
+
+#comment {
+    margin: 5px;
+}
+
+#plane {
+    margin: 5px;
+}
+
+#save {
+    margin: 10px;
+    margin-right: 20px;
+}
+
+
+.logo {
+    font-size: 30px;
+    margin: 5px;
+    margin-left: 13px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.name {
+    margin-right: auto;
+    align-items: center;
+}
+
+#upName {
+    margin-bottom: 0;
+}
+
+#downName {
+    margin-top: 0;
+}
+
+.dots {
+    margin-top: 20px;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.likes {
+    margin-left: 30px;
+}
+
+.description {
+    margin-left: 30px;
+}
+
